@@ -7,11 +7,15 @@
         font-size: 50px;
     }
     
+    h2 {
+        font-size: 40px;
+    }
+    
     .orange-color {
         color: rgba(250, 205, 7, 0.925);
     }
     
-    section {
+    .flexiblt-container {
         display: flex;
         margin-bottom: 100px;
     }
@@ -43,4 +47,36 @@
         background-image: url(photo/dream-bg.png);
         background-repeat: no-repeat;
         background-position: right;
+    }
+    
+    .experience-area {
+        background-image: url(photp/exp-bg.png);
+        background-repeat: no-repeat;
+        background-position: left;
+    }
+    
+    .experience-item {
+        width: 90px;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding-left: 40%;
+        box-shadow: 10px 10px 40px gray;
+        text-align: center;
+        border-left: 10px solid;
+    }
+    
+    #web-developer-ex {
+        border-image: linear-gradient(blue, cyan);
+        border-left: 7px solid;
+        border-image-slice: 1;
+    }
+    
+    #full-web-ex {
+        border-image: linear-gradient(rgb(69, 228, 6), rgb(255, 0, 0));
+        border-left: 7px solid;
+        border-image-slice: 1;
+    }
+    
+    footer p {
+        text-align: center;
     }
